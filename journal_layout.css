@@ -19,20 +19,30 @@ body{
                                                 
 }
 
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .friends{
+    margin: 10px;
     float: left;
-    width: 20%;
+    width: 18%;
     display: flex;
     flex-direction: column;
     border-style: solid;
-    background-color: #A8F0F0;
-    border-color: #326f97;
+    background-color: #b6d9f5; 
+    border-color: darkcyan;
+    color: darkcyan;
     border-width: 5px;
+    word-wrap: break-word;
 }
 
 .friends h1{
     margin-bottom: 0%;
     padding-bottom: 0%;
+    margin-left: 10%;
 }
 
 .friends li{
@@ -59,7 +69,7 @@ body{
     border-color: #C2E9E9;
     margin: 0%;
     margin-top: 10px;
-    margin-left: 20%;
+    margin-left: 22%;
     background-color: #E8FBFB;
     clear: right;
     overflow: hidden;
